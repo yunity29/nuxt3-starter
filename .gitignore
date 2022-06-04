@@ -1,0 +1,7 @@
+
+# 無視フォルダ
+.cache/
+node_modules/
+public/
+.history
+.nuxt
