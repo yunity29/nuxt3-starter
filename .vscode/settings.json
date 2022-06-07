@@ -1,4 +1,12 @@
 {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "workbench.tree.indent": 4,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "cSpell.words": [
+        "nuxt",
+        "nuxtjs"
+    ]
 }
