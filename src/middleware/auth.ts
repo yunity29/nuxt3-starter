@@ -4,5 +4,5 @@ export default defineNuxtRouteMiddleware((to, from) => {
   }
 
   // ログイン画面にリダイレクト
-  return navigateTo('/login');
+  return navigateTo('/loginPage');
 });
