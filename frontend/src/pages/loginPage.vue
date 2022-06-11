@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>ログインページ</div>
+    <div>ログインぺージ</div>
     <div>{{ $samplePlugin() }}</div>
     <button>ログインボタン</button>
   </div>

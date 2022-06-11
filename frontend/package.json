@@ -1,5 +1,8 @@
 {
   "private": true,
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,7 +16,6 @@
     "eslint": "^8.17.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^9.1.0",
-    "fibers": "^5.0.1",
     "nuxt": "3.0.0-rc.3",
     "sass": "^1.52.2",
     "sass-loader": "10",
