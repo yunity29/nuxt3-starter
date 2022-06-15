@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    <Header title="so happy"></Header>
+    <TheHeader title="so happy" />
     <div class="row-1" @click="pi1Add()">p1:{{ state.p1 }}</div>
     <div class="row-2">p2:{{ state.p2 }}</div>
     <div class="row-3" @click="pi3Add()">p3:{{ state.p3 }}</div>
@@ -8,6 +8,8 @@
 </template>
 <script lang="ts" setup>
 import { reactive } from 'vue';
+// import TheHeader from 'components/TheHeader.vue';
+const TheHeader = resolveComponent('TheHeader');
 
 const state = reactive({
   p1: '',
@@ -28,6 +30,8 @@ const pi3Add = () => {
 
 <style lang="scss" scoped>
 .wrap {
+
+
   .row-1 {
     color: red;
   }

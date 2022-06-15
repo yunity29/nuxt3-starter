@@ -1,6 +1,4 @@
-<template>
-
-</template>
+<template></template>
 <script setup>
 definePageMeta({
   middleware: ['auth'],
