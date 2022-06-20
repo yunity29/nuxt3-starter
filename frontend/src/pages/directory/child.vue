@@ -1,6 +1,5 @@
 <template>
   <div class="wrap">
-    <TheHeader title="so happy" />
     <div>
       <div class="row-1" @click="pi1Add()">p1:{{ state.p1 }}</div>
       <div class="row-2">p2:{{ state.p2 }}</div>

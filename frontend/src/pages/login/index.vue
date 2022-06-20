@@ -8,6 +8,9 @@
 </template>
 <script setup lang="ts">
 import LoginService from '~~/src/services/loginService';
+definePageMeta({
+  layout: 'default',
+});
 
 const state = reactive({
   id: 'sample',
