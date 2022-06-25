@@ -6,8 +6,6 @@ Nuxt3については下記のドキュメントをご覧ください。
 ## ローカル開発設定
 ローカルNode環境で開発する方法とDockerコンテナ環境の2つの方法があります。
 ローカルNode環境だと指定したNode.jsのバージョンを利用して開発する必要があります。
-Dockerコンテナ環境で開発する場合は、ホットリロードに若干不安があります。。。
-
 
 ### ローカルNode環境
 開発PC環境にNode.js、およびYarnの環境が設定されていること。
@@ -38,17 +36,4 @@ docker compose restart
 
 # コンテナ停止
 docker compose stop
-```
-
-## 本番サーバ稼働
-
-
-
-```bash
-
-# production用コードをビルド
-yarn build
-
-# Nuxtサーバ起動
-yarn preview
 ```
