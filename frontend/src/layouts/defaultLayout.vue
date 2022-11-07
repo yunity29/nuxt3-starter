@@ -5,11 +5,11 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { reactive } from 'vue';
+// import { reactive } from 'vue';
 
-const state = reactive({
-  p1: '',
-  p2: 0,
-  p3: new Date(),
-});
+// const state = reactive({
+//   p1: '',
+//   p2: 0,
+//   p3: new Date(),
+// });
 </script>

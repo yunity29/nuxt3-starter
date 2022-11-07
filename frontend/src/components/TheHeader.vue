@@ -45,5 +45,3 @@ const state = reactive({
   isOpen: false,
 });
 </script>
-<style lang="scss" scoped>
-</style>
