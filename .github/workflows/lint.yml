@@ -9,9 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Cd
-        run: cd frontend/
       - name: Check esLint
-        run: yarn lint:es
+        run: cd frontend/;yarn lint:es;
       - name: Check styleLint
         run: yarn lint:style
