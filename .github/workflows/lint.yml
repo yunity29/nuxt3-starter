@@ -13,6 +13,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.13.x
+      - name: ci
+        run: npm ci
       - name: Check esLint
         run: cd frontend/;yarn lint:es;
       - name: Check styleLint
