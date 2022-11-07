@@ -8,7 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
       - uses: actions/checkout@v3
+      - name: Set Node.js 16.13.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.13.x
       - name: Check esLint
         run: cd frontend/;yarn lint:es;
       - name: Check styleLint
