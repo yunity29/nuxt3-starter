@@ -29,8 +29,6 @@ const pi3Add = () => {
 
 <style lang="scss" scoped>
 .wrap {
-
-
   .row-1 {
     color: red;
   }
