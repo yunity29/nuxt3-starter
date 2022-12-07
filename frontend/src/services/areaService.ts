@@ -11,6 +11,6 @@ export default class AreaService {
   static async getArea() {
     await new Promise((s) => setTimeout(s, 3000));
 
-    return BaseHttp.httpRequest('/api/stab/area', 'get');
+    return BaseHttp.httpRequest('/api/stab/area', 'get', null, null );
   }
 }

@@ -16,7 +16,7 @@ export default class BaseHttp {
    * @param { Record<string, any> } body - 顧客ID
    * @return { Promise } - [Hello + name]という形式で戻る。
    */
-  static async httpRequest<T>(url: string, method: Method, params: SearchParams | null, body: Record<string, any>): Promise<T> {
+  static async httpRequest<T>(url: string, method: Method, params: SearchParams | null, body: Record<string, any> | null): Promise<T> {
     // TODO トークン等で認証が必要
 
 

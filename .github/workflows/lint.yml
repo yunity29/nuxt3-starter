@@ -22,3 +22,7 @@ jobs:
         run: yarn lint:es
       - name: Check styleLint
         run: yarn lint:style
+      - name: Check typeScript
+        run: yarn lint:ts
+      - name: Check vue-ts
+        run: yarn lint:vue-ts

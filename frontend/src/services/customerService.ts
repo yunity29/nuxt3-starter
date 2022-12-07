@@ -14,7 +14,7 @@ export default class CustomerService {
     await new Promise((s) => setTimeout(s, 3000));
 
     const response: GetCostumerResponse =
-      await BaseHttp.httpRequest('/api/stab/customer', 'get');
+      await BaseHttp.httpRequest('/api/stab/customer', 'get', null, null);
 
     return response;
   }
